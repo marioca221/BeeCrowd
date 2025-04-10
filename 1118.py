@@ -12,7 +12,7 @@ while True:
             notas.append(nota)
             contador+=1
 
-    print(f'media = {sum(notas)/len(notas):2f}')
+    print(f'media = {sum(notas)/len(notas):.2f}')
     print("novo calculo (1-sim 2-nao)")
     resposta = int(input())
     while str(resposta) not in "12":
